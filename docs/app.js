@@ -1,4 +1,4 @@
-const APP_URL = "http://localhost:3000/students";
+const APP_URL = "./students.json";
 
 function loadStudents() {
   fetch(APP_URL)
